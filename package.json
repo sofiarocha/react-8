@@ -37,6 +37,5 @@
     "lint": "eslint './src/**/*.js*'",
     "deploy": "webpack -p --env.ENVIRONMENT=production && gh-pages -d build",
     "build": "webpack -p --env.ENVIRONMENT=production"
-    
   }
 }
