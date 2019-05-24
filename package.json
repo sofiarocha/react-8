@@ -35,6 +35,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --env.ENVIRONMENT=development",
     "lint": "eslint './src/**/*.js*'",
-    "deploy": "webpack -p --env.ENVIRONMENT=production && gh-pages -d build"
+    "deploy": "webpack -p --env.ENVIRONMENT=production && gh-pages -d build",
+    "build": "webpack -p --env.ENVIRONMENT=production"
+    
   }
 }
